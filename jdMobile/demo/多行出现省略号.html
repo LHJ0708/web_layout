@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+     p {
+       width: 300px;
+
+       /* 单行强制出现省略号 */
+       /*强制不换行*/
+      /* white-space: nowrap; 
+      overflow: hidden; */
+      /* 让文字出现省略号 */
+      /* text-overflow: ellipsis; */
+
+
+      /* 让文字溢出隐藏 */
+      overflow: hidden;
+      /* 让盒子显示成伸缩盒子 类似于 display: flex */
+      display:  -webkit-box;
+      /* 让盒子中的内容纵向排列 类似于 flex-direction */
+      -webkit-box-orient: vertical;
+      /* 让文字显示几行 */
+      -webkit-line-clamp: 3;
+     }
+  </style>
+</head>
+<body>
+  <p>
+    梦里寻他千百度,蓦然回首,那人却在灯火阑珊处.
+    少年不识愁滋味,爱上层楼,爱上层楼,为赋新词强说愁,
+    欲说还羞,为赋新词强说愁,蓦然回首,那人却在灯火阑珊处.
+  </p>
+</body>
+</html>
